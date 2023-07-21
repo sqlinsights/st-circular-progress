@@ -1,1 +1,1 @@
-st-circular-progress
+st-circular-progress==0.1.4
