@@ -113,3 +113,6 @@ my_circular_progress.update_values(progress=100)
 ## Sample App 
 [Click Here for a sample app](https://st-circular-progress-demo.streamlit.app)
 
+
+## Disclaimer ⚠️
+This component works in Chrome, Safari does not recognizes the state changes for this version. 
