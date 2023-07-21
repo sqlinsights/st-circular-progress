@@ -62,28 +62,3 @@ class CircularProgress:
 
     def update_value(self, progress):
         st.session_state[f"cp_{self.key}"] = progress
-
-
-if not _RELEASE:
-    import streamlit as st
-
-    columns = st.columns(4)
-    with columns[0]:
-        cp = CircularProgress(
-            value=89,
-            label="Lorem ipsum dolor sit amet, consectetuer adipiscin",
-            size="small",
-            key="1",
-        ).st_circular_progress()
-        cp2 = CircularProgress(
-            value=25,
-            label="Short Text, but can be a very very long text",
-            size="medium",
-            key="2",
-        ).st_circular_progress()
-        cp3 = CircularProgress(
-            value=50,
-            label="Short Text, but can be a very very long text,",
-            size="large",
-            key="3",
-        ).st_circular_progress()
