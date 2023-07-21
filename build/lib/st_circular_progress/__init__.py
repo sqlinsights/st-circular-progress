@@ -1,6 +1,6 @@
 import os
 import streamlit.components.v1 as components
-from streamlit import session_state as _ss
+import streamlit as st
 
 _RELEASE = True
 
@@ -48,8 +48,8 @@ class CircularProgress:
         self.key = key or label
 
     def st_circular_progress(self):
-        if f"cp_{self.key}" not in _ss:
-            _ss[f"cp_{self.key}"] = self.value
+        if f"cp_{self.key}" not in st.session_state:
+            st.session_state[f"cp_{self.key}"] = self.value
         if self.size not in ["small", "medium", "large"]:
             raise CircularProgressBarError("Size must be small, medium or large")
         if len(self.label) > 50:
@@ -58,7 +58,7 @@ class CircularProgress:
             raise CircularProgressBarError("Value must be between 0 and 100")
         component_value = _st_circular_progress_component(
             label=self.label,
-            value=_ss[f"cp_{self.key}"],
+            value=st.session_state[f"cp_{self.key}"],
             size=self.size,
             color=self.color,
             track_color=self.track_color,
@@ -67,4 +67,4 @@ class CircularProgress:
         return component_value
 
     def update_value(self, progress):
-        _ss[f"cp_{self.key}"] = progress
+        st.session_state[f"cp_{self.key}"] = progress
