@@ -1,10 +1,12 @@
 Metadata-Version: 2.1
 Name: st-circular-progress
-Version: 0.1.0
+Version: 0.1.2
 Summary: Circular progress wheel for Streamlit
-Home-page: 
+Home-page: https://github.com/sqlinsights/st-circular-progress
 Author: Carlos D Serrano
 Author-email: sqlinsights@gmail.com
 Requires-Python: >=3.6
 Description-Content-Type: text/plain
 License-File: LICENSE
+
+Streamlit custom component based in VanillaJs that generates a Circular Shaped progress bar.

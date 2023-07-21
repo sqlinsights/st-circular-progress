@@ -2,13 +2,13 @@ import setuptools
 
 setuptools.setup(
     name="st_circular_progress",
-    version="0.1.0",
+    version="0.1.2",
     author="Carlos D Serrano",
     author_email="sqlinsights@gmail.com",
     description="Circular progress wheel for Streamlit",
-    long_description="",
+    long_description="Streamlit custom component based in VanillaJs that generates a Circular Shaped progress bar.",
     long_description_content_type="text/plain",
-    url="",
+    url="https://github.com/sqlinsights/st-circular-progress",
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[],
