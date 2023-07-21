@@ -12,6 +12,6 @@ st_circular_progress/frontend/build/asset-manifest.json
 st_circular_progress/frontend/build/bootstrap.min.css
 st_circular_progress/frontend/build/index.html
 st_circular_progress/frontend/build/progress.css
-st_circular_progress/frontend/build/static/js/main.27fdf054.js
-st_circular_progress/frontend/build/static/js/main.27fdf054.js.LICENSE.txt
-st_circular_progress/frontend/build/static/js/main.27fdf054.js.map
+st_circular_progress/frontend/build/static/js/main.a9466aa5.js
+st_circular_progress/frontend/build/static/js/main.a9466aa5.js.LICENSE.txt
+st_circular_progress/frontend/build/static/js/main.a9466aa5.js.map
