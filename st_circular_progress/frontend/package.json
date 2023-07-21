@@ -1,6 +1,6 @@
 {
   "name": "st_circular_progress",
-  "version": "0.1.0",
+  "version": "0.2.5",
   "private": true,
   "dependencies": {
     "@types/jest": "^24.0.0",

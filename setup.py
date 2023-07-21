@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="st_circular_progress",
-    version="0.1.4",
+    version="0.3.4",
     author="Carlos D Serrano",
     author_email="sqlinsights@gmail.com",
     description="Circular progress wheel for Streamlit",
@@ -14,6 +14,6 @@ setuptools.setup(
     classifiers=[],
     python_requires=">=3.6",
     install_requires=[
-        "streamlit >= 0.63",
+        "streamlit >= 1.20.0",
     ],
 )

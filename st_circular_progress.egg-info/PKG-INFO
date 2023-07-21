@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: st-circular-progress
-Version: 0.1.4
+Version: 0.3.4
 Summary: Circular progress wheel for Streamlit
 Home-page: https://github.com/sqlinsights/st-circular-progress
 Author: Carlos D Serrano

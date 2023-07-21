@@ -1,1 +1,3 @@
-recursive-include package/frontend/build *
+recursive-include st_circular_progress/frontend/build *
+include README.md
+include LICENSE
