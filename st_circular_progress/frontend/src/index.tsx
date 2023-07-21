@@ -6,7 +6,7 @@ var head = document.getElementsByTagName('HEAD')[0];
 var link = document.createElement('link');
 link.rel = 'stylesheet';
 link.type = 'text/css';
-link.href = 'st_circular_progress/frontend/public/progres.css';
+link.href = 'st_circular_progress/frontend/public/progress.css';
 head.appendChild(link);
 const container = document.body.appendChild(document.createElement("div"))
 container.className = "progress-bar-container"
