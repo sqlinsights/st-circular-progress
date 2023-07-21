@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: st-circular-progress
+Version: 0.1.0
+Summary: Circular progress wheel for Streamlit
+Home-page: 
+Author: Carlos D Serrano
+Author-email: sqlinsights@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+License-File: LICENSE

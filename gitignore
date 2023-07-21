@@ -1,0 +1,5 @@
+streamlit_circular_progress/frontend/node_modules/
+streamlit_circular_progress.egg-info/
+.DS_Store*
+build/
+dist/
