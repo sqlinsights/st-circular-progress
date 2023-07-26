@@ -6,13 +6,14 @@ import numpy as np
 st.title("Circular Progress Component")
 
 
-def calculate_progress():
-    if "slider" in st.session_state:
-        cp.update_value(progress=st.session_state["slider"])
+
 st.subheader("Install")
 st.markdown("```pip install st-circular-progress```")
 st.subheader("Sample Usage")            
 with st.echo():
+    def calculate_progress():
+        if "slider" in st.session_state:
+            cp.update_value(progress=st.session_state["slider"])
     columns = st.columns((1, 2))
     with columns[0]:
         cp = CircularProgress(
