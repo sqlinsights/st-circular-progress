@@ -10,7 +10,7 @@ def calculate_progress():
     if "slider" in st.session_state:
         cp.update_value(progress=st.session_state["slider"])
 st.subheader("Install")
-st.markdown("```pip install st-circular-progress```"
+st.markdown("```pip install st-circular-progress```")
 st.subheader("Sample Usage")            
 with st.echo():
 columns = st.columns((1, 2))
