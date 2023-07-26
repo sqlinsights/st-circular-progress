@@ -13,7 +13,7 @@ st.subheader("Install")
 st.markdown("```pip install st-circular-progress```")
 st.subheader("Sample Usage")            
 with st.echo():
-columns = st.columns((1, 2))
+    columns = st.columns((1, 2))
     with columns[0]:
         cp = CircularProgress(
             value=0,
