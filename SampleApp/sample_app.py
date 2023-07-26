@@ -9,26 +9,27 @@ st.title("Circular Progress Component")
 def calculate_progress():
     if "slider" in st.session_state:
         cp.update_value(progress=st.session_state["slider"])
-
-
+st.subheader("Install")
+st.markdown("```pip install st-circular-progress```"
+st.subheader("Sample Usage")            
+with st.echo():
 columns = st.columns((1, 2))
-
-with columns[0]:
-    cp = CircularProgress(
-        value=0,
-        label="Progress Indicator",
-        size="Large",
-        key="circular_progress_total",
-    )
-    cp.st_circular_progress()
-with columns[1]:
-    st.slider(
-        "Change progress to",
-        min_value=0,
-        max_value=100,
-        on_change=calculate_progress,
-        key="slider",
-    )
+    with columns[0]:
+        cp = CircularProgress(
+            value=0,
+            label="Progress Indicator",
+            size="Large",
+            key="circular_progress_total",
+        )
+        cp.st_circular_progress()
+    with columns[1]:
+        st.slider(
+            "Change progress to",
+            min_value=0,
+            max_value=100,
+            on_change=calculate_progress,
+            key="slider",
+        )
 
 data = [
     ["Feature #126", 55],
